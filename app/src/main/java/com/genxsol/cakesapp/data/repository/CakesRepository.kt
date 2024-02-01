@@ -15,8 +15,8 @@ import javax.inject.Singleton
 class CakesRepository @Inject constructor(
     private val network: ApiInterface
 ) {
-
     suspend fun getCakes(pageNumber: Int = DEFAULT_PAGE_NUM): Flow<List<CakesItem>> {
+        //TODO inject database interface and make it single source of truth of loading, cache network data there
         return flow {
             val cakes = network.getCakes()
             emit(
