@@ -24,17 +24,17 @@ class CakesPagingSource @Inject constructor(
         val page = params.key ?: 1
         lateinit var loadResult: LoadResult<Int, CakesItem>
 
-        try {
+        loadResult = try {
             val articles = withContext(dispatcherProvider.io) {
                 cakesRepository.getCakes(page).first()
             }
-            loadResult = LoadResult.Page(
+            LoadResult.Page(
                 data = articles,
                 prevKey = if (page == 1) null else page.minus(1),
                 nextKey = if (articles.isEmpty()) null else page.plus(1)
             )
         } catch (e: Exception) {
-            loadResult = LoadResult.Error(e)
+            LoadResult.Error(e)
         }
         return loadResult
     }

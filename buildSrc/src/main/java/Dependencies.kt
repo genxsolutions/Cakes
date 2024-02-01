@@ -54,6 +54,9 @@ object Dependencies {
     val coreTesting by lazy { "androidx.arch.core:core-testing:${Versions.coreTesting}" }
     val coroutinesTest by lazy { "org.jetbrains.kotlinx:kotlinx-coroutines-test:${Versions.coroutinesTest}" }
     val turbine by lazy { "app.cash.turbine:turbine:${Versions.turbine}" }
+    val composeUiTest by lazy { "androidx.compose.ui:ui-test-junit4:${Versions.composeUiTest}" }
+    val androidxTestExtJUnit by lazy { "androidx.test.ext:junit:${Versions.androidxTestExtJUnit}" }
+
 }
 
 object Modules{

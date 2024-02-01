@@ -44,7 +44,7 @@ class CakesViewModel @Inject constructor(
 
     fun fetchCakes() {
         fetchCakesData()
-    //TODO enable paging for large data set in lazy loading
+    //TODO enable paging for large data set in lazy loading (concept only; WIP)
     //fetchCakesWithPaging()
     }
 

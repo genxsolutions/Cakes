@@ -52,4 +52,6 @@ object Versions {
     const val coreTesting = "2.2.0"
     const val coroutinesTest = "1.7.3"
     const val turbine = "0.12.1"
+    const val composeUiTest = "1.1.0-alpha02"
+    const val androidxTestExtJUnit = "1.1.3"
 }

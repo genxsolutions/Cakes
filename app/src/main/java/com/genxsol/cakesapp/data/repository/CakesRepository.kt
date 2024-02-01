@@ -1,6 +1,5 @@
 package com.genxsol.cakesapp.data.repository
 
-import android.net.http.NetworkException
 import com.genxsol.cakesapp.common.Const.DEFAULT_PAGE_NUM
 import com.genxsol.cakesapp.common.util.removeDuplicates
 import com.genxsol.cakesapp.common.util.sortCakesByName
