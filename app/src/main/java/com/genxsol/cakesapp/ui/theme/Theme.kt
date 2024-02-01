@@ -1,4 +1,4 @@
-package com.genxsol.cakes.ui.theme
+package com.genxsol.cakesapp.ui.theme
 
 import android.app.Activity
 import android.os.Build
@@ -38,7 +38,7 @@ private val LightColorScheme = lightColorScheme(
 )
 
 @Composable
-fun CakesTheme(
+fun CakeAppTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
     dynamicColor: Boolean = true,
@@ -56,9 +56,11 @@ fun CakesTheme(
     val view = LocalView.current
     if (!view.isInEditMode) {
         SideEffect {
-            val window = (view.context as Activity).window
-            window.statusBarColor = colorScheme.primary.toArgb()
-            WindowCompat.getInsetsController(window, view).isAppearanceLightStatusBars = darkTheme
+            val window = (view.context as? Activity)?.window
+            window?.statusBarColor = colorScheme.primary.toArgb()
+            window?.let {
+                WindowCompat.getInsetsController(it, view).isAppearanceLightStatusBars = darkTheme
+            }
         }
     }
 

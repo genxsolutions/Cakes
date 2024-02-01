@@ -1,4 +1,4 @@
-package com.genxsol.cakes.ui.theme
+package com.genxsol.cakesapp.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
