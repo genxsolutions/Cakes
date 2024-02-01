@@ -16,6 +16,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
+import androidx.navigation.compose.dialog
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import com.genxsol.cakesapp.R
@@ -72,7 +73,7 @@ private fun CakeNavHost(
                 navController.navigate("${Screen.PopupScreen.route}/$description")
             }
         }
-        composable(
+        dialog(
             route = "${Screen.PopupScreen.route}/{text}",
             arguments = listOf(navArgument("text") { type = NavType.StringType })
         ) { backStackEntry ->
