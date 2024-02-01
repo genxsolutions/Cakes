@@ -109,28 +109,20 @@ app:
 │   └── viewmodels
 │       ├── CakesViewModel.kt
 
-Utilities:
+utilities:
 │   ├── networkhelper
 │   │   ├── NetworkHelper.kt
 │   │   └── NetworkHelperImpl.kt
 
-BuildSrc:
+buildSrc:
 │   ├── Dependencies.kt
 │   ├── Versions.kt 
 
 ```
-<p align="center">
-<img alt="screenshots"  src="https://github.com/genxsolutions/Cakes/blob/main/assets/cakeList.png">
-</p>
-<p align="center">
-<img alt="screenshots"  src="https://github.com/genxsolutions/Cakes/blob/main/assets/popup_description.png">
-</p>
-<p align="center">
-<img alt="screenshots"  src="https://github.com/genxsolutions/Cakes/blob/main/assets/error.png">
-</p>
-<p align="center">
-<img alt="screenshots"  src="https://github.com/genxsolutions/Cakes/blob/main/assets/fadein_animation.png">
-</p>
-<p align="center">
-<img alt="screenshots"  src="https://github.com/genxsolutions/Cakes/blob/main/assets/pull_to_refresh.png">
-</p>
+<div style="display: flex; justify-content: space-between;">
+    <img alt="cake list"  src="https://github.com/genxsolutions/Cakes/blob/main/assets/cakeList.png" width="300" height="200">
+    <img alt="description" src="https://github.com/genxsolutions/Cakes/blob/main/assets/popup_description.png" width="300" height="200">
+    <img alt="error" src="https://github.com/genxsolutions/Cakes/blob/main/assets/error.png" width="300" height="200">
+    <img alt="animation" src="https://github.com/genxsolutions/Cakes/blob/main/assets/fadein_animation.png" width="300" height="200">
+    <img alt="pull-to-refresh" src="https://github.com/genxsolutions/Cakes/blob/main/assets/pull_to_refresh.png" width="300" height="200">
+</div>
