@@ -20,7 +20,13 @@ Welcome to CakesApp, presents list of cakes built with MVVM architecture and Jet
 
 - Show list of cakes
 - show popup to show descriptions of the cake
-- accessibility support (built in for now)
+- pull to refresh
+- no network and error screen with retry functionality
+- accessibility support
+- dark and light mode support
+- config change handling
+- central dependency management
+- modularised concept
 
 ## Features planned as backlog
 - **Pagination** to efficiently load and display cake list 
@@ -52,6 +58,7 @@ cd Cakes
 ## The Complete Project Folder Structure
 
 ```
+app:
 |── CakesApplication.kt
 ├── common
 │   ├── Const.kt
@@ -62,9 +69,6 @@ cd Cakes
 │   ├── logger
 │   │   ├── AppLogger.kt
 │   │   └── Logger.kt
-│   ├── networkhelper
-│   │   ├── NetworkHelper.kt
-│   │   └── NetworkHelperImpl.kt
 │   └── util
 │       ├── Util.kt
 ├── data
@@ -100,5 +104,14 @@ cd Cakes
 │   │   └── Type.kt
 │   └── viewmodels
 │       ├── CakesViewModel.kt
+
+Utilities:
+│   ├── networkhelper
+│   │   ├── NetworkHelper.kt
+│   │   └── NetworkHelperImpl.kt
+
+BuildSrc:
+│   ├── Dependencies.kt
+│   ├── Versions.kt 
 
 ```
