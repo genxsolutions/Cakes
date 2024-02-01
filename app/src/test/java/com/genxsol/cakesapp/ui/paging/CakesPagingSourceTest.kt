@@ -1,9 +1,9 @@
 package com.genxsol.cakesapp.ui.paging
 
 import androidx.paging.PagingSource
+import com.example.utilities.NetworkHelper
 import com.genxsol.cakesapp.common.dispatcher.DispatcherProvider
 import com.genxsol.cakesapp.common.dispatcher.TestDispatcherProvider
-import com.genxsol.cakesapp.common.networkhelper.NetworkHelper
 import com.genxsol.cakesapp.common.networkhelper.TestNetworkHelper
 import com.genxsol.cakesapp.data.model.CakesItem
 import com.genxsol.cakesapp.data.repository.CakesRepository
@@ -13,7 +13,6 @@ import org.junit.Before
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.mockito.Mock
-import org.mockito.Mockito.doReturn
 import org.mockito.Mockito.doThrow
 import org.mockito.junit.MockitoJUnitRunner
 

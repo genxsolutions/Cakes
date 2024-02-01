@@ -1,4 +1,4 @@
-package com.genxsol.cakesapp.common.networkhelper
+package com.example.utilities
 
 interface NetworkHelper {
     fun isNetworkConnected(): Boolean

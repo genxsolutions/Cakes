@@ -6,10 +6,10 @@ import androidx.lifecycle.viewModelScope
 import androidx.paging.Pager
 import androidx.paging.PagingData
 import androidx.paging.cachedIn
+import com.example.utilities.NetworkHelper
 import com.genxsol.cakesapp.common.NoInternetException
 import com.genxsol.cakesapp.common.dispatcher.DispatcherProvider
 import com.genxsol.cakesapp.common.logger.Logger
-import com.genxsol.cakesapp.common.networkhelper.NetworkHelper
 import com.genxsol.cakesapp.data.model.CakesItem
 import com.genxsol.cakesapp.data.repository.CakesRepository
 import com.genxsol.cakesapp.ui.base.UIState
@@ -75,6 +75,7 @@ class CakesViewModel @Inject constructor(
             this.flowOn(dispatcherProvider.io)
             .catch {
                 _cakesStateItem.emit(UIState.Failure(it))
+                logger.d("CakesViewModel", "Error")
             }
             .collect {
                 _cakesStateItem.emit(UIState.Success(it))

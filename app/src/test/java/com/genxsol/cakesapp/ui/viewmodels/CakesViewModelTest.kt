@@ -3,11 +3,11 @@ package com.genxsol.cakesapp.ui.viewmodels
 import androidx.lifecycle.SavedStateHandle
 import androidx.paging.Pager
 import app.cash.turbine.test
+import com.example.utilities.NetworkHelper
 import com.genxsol.cakesapp.common.dispatcher.DispatcherProvider
 import com.genxsol.cakesapp.common.dispatcher.TestDispatcherProvider
 import com.genxsol.cakesapp.common.logger.Logger
 import com.genxsol.cakesapp.common.logger.TestLogger
-import com.genxsol.cakesapp.common.networkhelper.NetworkHelper
 import com.genxsol.cakesapp.common.networkhelper.TestNetworkHelper
 import com.genxsol.cakesapp.data.model.CakesItem
 import com.genxsol.cakesapp.data.repository.CakesRepository
