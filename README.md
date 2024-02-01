@@ -28,7 +28,7 @@ Welcome to CakesApp, presents list of cakes built with MVVM architecture and Jet
 - **Room DB** for local storage of cake listings
 - **work manager** for background caching
 - **version catalogs** centralised dependency system 
-- **version catalogs** detailed testing and handling the low memory and restart scenarios 
+- detailed testing and handling the low memory and restart scenarios 
 
 ## Dependency Use
 
