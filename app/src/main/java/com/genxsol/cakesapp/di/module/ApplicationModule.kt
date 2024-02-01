@@ -3,13 +3,13 @@ package com.genxsol.cakesapp.di.module
 import android.content.Context
 import androidx.paging.Pager
 import androidx.paging.PagingConfig
+import com.example.utilities.NetworkHelper
+import com.example.utilities.NetworkHelperImpl
 import com.genxsol.cakesapp.common.Const
 import com.genxsol.cakesapp.common.dispatcher.DefaultDispatcherProvider
 import com.genxsol.cakesapp.common.dispatcher.DispatcherProvider
 import com.genxsol.cakesapp.common.logger.AppLogger
 import com.genxsol.cakesapp.common.logger.Logger
-import com.genxsol.cakesapp.common.networkhelper.NetworkHelper
-import com.genxsol.cakesapp.common.networkhelper.NetworkHelperImpl
 import com.genxsol.cakesapp.data.model.CakesItem
 import com.genxsol.cakesapp.data.network.ApiInterface
 import com.genxsol.cakesapp.di.BaseUrl

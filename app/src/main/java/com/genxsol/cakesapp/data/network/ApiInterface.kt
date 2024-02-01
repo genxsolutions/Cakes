@@ -3,7 +3,6 @@ package com.genxsol.cakesapp.data.network
 import com.genxsol.cakesapp.common.Const.DEFAULT_KEY1
 import com.genxsol.cakesapp.common.Const.DEFAULT_KEY2
 import com.genxsol.cakesapp.data.model.Cakes
-import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Path
 
