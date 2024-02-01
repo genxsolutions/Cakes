@@ -16,6 +16,10 @@ Welcome to CakesApp, presents list of cakes built with MVVM architecture and Jet
 - **Coil** for efficient image loading
 - **Pull to refresh** for refreshing the contents
 
+<p align="center">
+<img alt="screenshots"  src="https://github.com/genxsolutions/Cakes/blob/main/assets/Cakes_app_architecture.jpeg">
+</p>
+
 ## Features Implemented
 
 - Show list of cakes
@@ -115,3 +119,18 @@ BuildSrc:
 │   ├── Versions.kt 
 
 ```
+<p align="center">
+<img alt="screenshots"  src="https://github.com/genxsolutions/Cakes/blob/main/assets/cakeList.png">
+</p>
+<p align="center">
+<img alt="screenshots"  src="https://github.com/genxsolutions/Cakes/blob/main/assets/popup_description.png">
+</p>
+<p align="center">
+<img alt="screenshots"  src="https://github.com/genxsolutions/Cakes/blob/main/assets/error.png">
+</p>
+<p align="center">
+<img alt="screenshots"  src="https://github.com/genxsolutions/Cakes/blob/main/assets/fadein_animation.png">
+</p>
+<p align="center">
+<img alt="screenshots"  src="https://github.com/genxsolutions/Cakes/blob/main/assets/pull_to_refresh.png">
+</p>
