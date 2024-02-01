@@ -15,6 +15,7 @@ Welcome to CakesApp, presents list of cakes built with MVVM architecture and Jet
 - **Navigation** for smooth transitions between screens
 - **Coil** for efficient image loading
 - **Pull to refresh** for refreshing the contents
+- **multi module** just for concept of separating utilities into separate module (use android multimodule template for feature level separation)
 
 <p align="center">
 <img alt="screenshots"  src="https://github.com/genxsolutions/Cakes/blob/main/assets/Cakes_app_architecture.jpeg">
