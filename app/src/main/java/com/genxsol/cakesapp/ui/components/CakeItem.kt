@@ -49,10 +49,10 @@ fun CakeImage(urlToImage: String, title: String?) {
     AsyncImage(
         model = urlToImage,
         error = painterResource(R.drawable.ic_cake),
+        placeholder = painterResource(R.drawable.ic_cake),
         contentDescription = title,
         contentScale = ContentScale.Crop,
-        modifier = Modifier
-            .width(150.dp)
+        modifier = Modifier.width(150.dp)
     )
 }
 
