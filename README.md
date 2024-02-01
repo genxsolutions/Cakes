@@ -5,7 +5,6 @@ Welcome to CakesApp, presents list of cakes built with MVVM architecture and Jet
 ## Major Highlights
 
 - **Jetpack Compose** for modern UI
-
 - **MVVM architecture** for a clean and scalable codebase
 - **Kotlin** and **Kotlin DSL**
 - **Dagger Hilt** for efficient dependency injection.
@@ -15,8 +14,7 @@ Welcome to CakesApp, presents list of cakes built with MVVM architecture and Jet
 - **Unit tests** and **UI tests** for robust code coverage
 - **Navigation** for smooth transitions between screens
 - **Coil** for efficient image loading
-- Pull to refresh for refreshing cakes content
-
+- **Pull to refresh** for refreshing the contents
 
 ## Features Implemented
 
@@ -29,6 +27,8 @@ Welcome to CakesApp, presents list of cakes built with MVVM architecture and Jet
 - **Offline caching** with a **single source of truth**
 - **Room DB** for local storage of cake listings
 - **work manager** for background caching
+- **version catalogs** centralised dependency system 
+- **version catalogs** detailed testing and handling the low memory and restart scenarios 
 
 ## Dependency Use
 
